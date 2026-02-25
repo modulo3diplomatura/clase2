@@ -25,4 +25,4 @@ git config --global user.email "tu_correo@example.com"
 Configuración local por proyecto
 git config user.name "modulo3diplomatura" 
 git config user.email "githubusernew@gmail.com"
-asdasd
+asdasdsaddas
