@@ -22,7 +22,6 @@ Configurar git con nombre de usuario y email:
 git config --global user.name "Tu Nombre"
 git config --global user.email "tu_correo@example.com"
 
-(OPCIONAL)
 Configuración local por proyecto
 git config user.name "Tu Nombre" 
 git config user.email "tu_correo@example.com"
