@@ -1,15 +1,30 @@
+// import fs from 'fs';
 
-// import http from "http";
-
-// const server = http.createServer((req, res) => {
-//   res.writeHead(200, { "Content-Type": "text/plain" });
-//   res.end("Hello, World!\n");
+// // Leer un archivo de manera asíncrona
+// fs.readFile('./data/example.txt', 'utf8', (err, data) => {
+//     if (err) throw err;
+//     console.log('Contenido del archivo:', data);
 // });
 
-// const PORT = 3000;
-// server.listen(PORT, () => {
-//   console.log(`Server is running on http://localhost:${PORT}`);
+// // Escribir en un nuevo archivo
+// fs.writeFile('./data/example.txt', 'Contenido nuevo', (err) => {
+//     if (err) throw err;
+//     console.log('Archivo creado y escrito');
 // });
+
+// // Renombrar un archivo
+// fs.rename('./data/newfile.txt', './data/renamedfile.txt', (err) => {
+//     if (err) throw err;
+//     console.log('Archivo renombrado');
+// });
+
+// // Eliminar un archivo
+// fs.unlink('./data/newfile.txt', (err) => {
+//     if (err) throw err;
+//     console.log('Archivo eliminado');
+// });
+
+
 import path from 'path';
 
 // Definir una ruta de archivo de ejemplo
