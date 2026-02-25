@@ -11,7 +11,7 @@ En la terminal de windows o en gitbash y dentro de la carpeta del proyecto podem
 
 -git commit -m "Primer commit o comentario" (Agregamos un comentario a la subida del repositrio)
 
-Para Vincular un repositorio diferente podemos ejecutar este comando(OPCIONAL)
+Para Vincular un repositorio diferente podemos ejecutar este comando
 -git remote add origin https://github.com/usuario/nombre-repo.git
 
 Comando para subir los cambios a el repositorio
@@ -19,7 +19,7 @@ Comando para subir los cambios a el repositorio
 
 Configurar git con nombre de usuario y email:
 
-git config --global user.name "Tu Nombre" 
+git config --global user.name "Tu Nombre"
 git config --global user.email "tu_correo@example.com"
 
 (OPCIONAL)
